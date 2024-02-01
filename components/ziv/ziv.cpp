@@ -34,7 +34,7 @@ void ZivComponent::setup() {
    * https://www.gurux.fi/node/4819
    * https://www.gurux.fi/forum/13263
    */
-  cl_init(&settings_, true /*logicalname*/, 1, 0x17, DLMS_AUTHENTICATION_NONE, NULL, DLMS_INTERFACE_TYPE_HDLC_WITH_MODE_E);
+  cl_init(&settings_, true /*logicalname*/, 10, 0x1, DLMS_AUTHENTICATION_NONE, NULL, DLMS_INTERFACE_TYPE_HDLC_WITH_MODE_E);
 }
 
 void ZivComponent::dump_config() {
